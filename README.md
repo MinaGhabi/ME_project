@@ -1252,3 +1252,4 @@ int fcmp(double x, double y, double delta)
 {
     return ((fabs(x - y) / ((x == 0.0) ? 1.0 : fabs(x))) < delta);
 }
+
